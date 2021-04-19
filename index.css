@@ -1,1 +1,35 @@
-CSS
+body {
+    background-image: url("images/stars.jpg");
+}
+
+h1 {
+    margin: 10px;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Star Jedi';
+}
+
+p {
+    color: whitesmoke;
+    margin: 5px 20px;
+    text-align: center;
+}
+
+div {
+    background-color: teal;
+}
+#inputFirst {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#inputLast {
+    margin: 10px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+#firstDisplay {
+    color: red;
+}
