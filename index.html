@@ -10,6 +10,21 @@
         <h1>Star Wars Name!</h1>
         <p id="infoPara">Want to know your Star Wars Name? Enter your first name and submit then enter your second name and click submit to learn what your Star Wars Name would be!</p>
         <section class="inputSection">
+	    <div class="titles">
+            	<select name="Title" id="titles">
+			<option value="" disabled selected hidden>Choose a title...</option>
+			<option value="admiral">Admiral</option>
+			<option value="captain">Captain</option>
+			<option value="chief">Chief</option>
+			<option value="commander">Commander</option>
+			<option value="count">Count</option>
+			<option value="darth">Darth</option>
+			<option value="general">General</option>
+			<option value="moff">Moff</option>
+			<option value="viceroy">Viceroy</option>
+			<option value="warmaster">Warmaster</option>
+            	</select>
+       	    </div>
             <div class="topInput">
                 <input type="text" id="inputFirst" placeholder="Input First Name.."></input>
                 <button type="submit" id="subFirst">Submit</button>
@@ -18,21 +33,6 @@
                 <input type="text" id="inputLast" placeholder="Input Last Name.."></input>
                 <button type="submit" id="subLast">Submit</button>
             </div>
-            <div class="titles">
-            <select name="Title" id="titles">
-                <option value="" disabled selected hidden>Choose a title...</option>
-                <option value="admiral">Admiral</option>
-                <option value="captain">Captain</option>
-                <option value="chief">Chief</option>
-                <option value="commander">Commander</option>
-                <option value="count">Count</option>
-                <option value="darth">Darth</option>
-                <option value="general">General</option>
-                <option value="moff">Moff</option>
-                <option value="viceroy">Viceroy</option>
-                <option value="warmaster">Warmaster</option>
-            </select>
-        </div>
         </section>
         <p id="nameIs"> Your Star Wars name is:</p>
         <section class="starName">
