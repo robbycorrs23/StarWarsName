@@ -84,7 +84,7 @@ let randomY = Math.floor(Math.random()*nameY.length)
 let randomZ = Math.floor(Math.random()*nameZ.length)
 
 function grabInput () {
-    let firstShow = document.getElementById("firstDisplay");
+    let firstShow = document.querySelector(".firstDisplay");
     let valueFirst = firstName.value.toUpperCase();
     if (valueFirst.startsWith("A")) {
         firstShow.innerText = nameA[randomA];
@@ -169,7 +169,7 @@ function grabInput () {
 firstBtn.addEventListener("click", grabInput)
 
 function lastInput () {
-    let lastShow = document.querySelector("#lastDisplay");
+    let lastShow = document.querySelector(".lastDisplay");
     let valueLast = lastName.value.toUpperCase();
     if (valueLast.startsWith("A")) {
         lastShow.innerText = nameA[randomA];
@@ -254,7 +254,7 @@ function lastInput () {
 lastBtn.addEventListener("click", lastInput)
 
 function titleInput () {
-    let titleShow = document.querySelector("#titleDisplay");
+    let titleShow = document.querySelector(".titleDisplay");
     const titleDisplay = selectTitle.options[selectTitle.selectedIndex].text;
     titleShow.innerText = titleDisplay;
 }
