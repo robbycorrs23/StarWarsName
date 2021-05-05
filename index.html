@@ -3,6 +3,7 @@
     <head>
         <title>Star Wars Name Randomizer!</title>
         <link rel="stylesheet" href="index.css">
+        <script src="index.pack.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Poller+One&display=swap" rel="stylesheet">            
 	</head>
@@ -10,21 +11,21 @@
         <h1>Star Wars Name!</h1>
         <p id="infoPara">Want to know your Star Wars Name? Enter your first name and submit then enter your second name and click submit to learn what your Star Wars Name would be!</p>
         <section class="inputSection">
-	    <div class="titles">
-            	<select name="Title" id="titles">
-			<option value="" disabled selected hidden>Choose a title...</option>
-			<option value="admiral">Admiral</option>
-			<option value="captain">Captain</option>
-			<option value="chief">Chief</option>
-			<option value="commander">Commander</option>
-			<option value="count">Count</option>
-			<option value="darth">Darth</option>
-			<option value="general">General</option>
-			<option value="moff">Moff</option>
-			<option value="viceroy">Viceroy</option>
-			<option value="warmaster">Warmaster</option>
-            	</select>
-       	    </div>
+            <div class="titles">
+                <select name="Title" id="titles">
+                    <option value="" disabled selected hidden>Choose a title...</option>
+                    <option value="admiral">Admiral</option>
+                    <option value="captain">Captain</option>
+                    <option value="chief">Chief</option>
+                    <option value="commander">Commander</option>
+                    <option value="count">Count</option>
+                    <option value="darth">Darth</option>
+                    <option value="general">General</option>
+                    <option value="moff">Moff</option>
+                    <option value="viceroy">Viceroy</option>
+                    <option value="warmaster">Warmaster</option>
+                </select>
+            </div>
             <div class="topInput">
                 <input type="text" id="inputFirst" placeholder="Input First Name.."></input>
                 <button type="submit" id="subFirst">Submit</button>
@@ -36,10 +37,9 @@
         </section>
         <p id="nameIs"> Your Star Wars name is:</p>
         <section class="starName">
-            <div id="titleDisplay"></div>
-            <div id="firstDisplay"></div>
-            <div id="lastDisplay"></div>
+            <div class="display1 titleDisplay"></div>
+            <div class="display1 firstDisplay"></div>
+            <div class="display1 lastDisplay"></div>
         </section>
-	<script src="index.js"></script>
     </body>
 </html>
