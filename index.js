@@ -1,8 +1,7 @@
-const firstName = document.querySelector("#inputFirst")
-const lastName = document.getElementById("inputLast")
-const firstBtn = document.querySelector("#subFirst")
-const lastBtn = document.querySelector("#subLast")
-const selectTitle = document.getElementById("titles");
+const firstName = document.querySelector("#input-first")
+const lastName = document.querySelector("#input-last")
+const firstBtn = document.querySelector("#sub-first")
+const selectTitle = document.querySelector("#titles");
 
 const nameA = ['Ackbar', 'Allie', 'Amidala', 'Amedda', 'Antilles', "Arvel", 'Adi', 'Armitage', 'Agen', 'Antonio', 'Aayla', 'Aurra', 'Anakin', 'Allana', 'Ahsoka', 'Allyn', 'Assajj']
 
@@ -166,7 +165,8 @@ function grabInput () {
         firstName.value = "";
     }
 }
-firstBtn.addEventListener("click", grabInput)
+
+firstBtn.addEventListener("click", submitBtn)
 
 function lastInput () {
     let lastShow = document.querySelector(".lastDisplay");
@@ -251,11 +251,15 @@ function lastInput () {
         lastName.value = "";
     }
 }
-lastBtn.addEventListener("click", lastInput)
 
 function titleInput () {
     let titleShow = document.querySelector(".titleDisplay");
     const titleDisplay = selectTitle.options[selectTitle.selectedIndex].text;
     titleShow.innerText = titleDisplay;
 }
-selectTitle.addEventListener("change", titleInput)
+
+function submitBtn () {
+    grabInput();
+    lastInput();
+    titleInput();
+}
