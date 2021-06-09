@@ -17,10 +17,12 @@ h1 {
     margin: 5px 25px;
     text-align: center;
     font-family: 'Poller One', cursive;
+    font-size: 4rem;
 }
 
 .inputSection {
-    margin: 1rem 0rem;
+    width: 100%;
+    margin: 1rem auto;
     padding: 1em;
     background-image: url("https://user-images.githubusercontent.com/82347372/115903990-42bdff00-a432-11eb-9aab-2b9a980a3f8f.jpg");
     background-size: cover;
