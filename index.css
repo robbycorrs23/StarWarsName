@@ -81,21 +81,3 @@ h1 {
 .display1 {
     padding: .5rem;
 }
-
-@media screen and (min-width: 600px) {
-    h1 {
-        font-size: 20px;
-    }
-    
-    #infoPara {
-       font-size: 10px;
-    }
-    
-    .inputSection {
-        width: 100%;
-    }
-    
-    .display1 {
-        font-size: 1rem;
-    }
-}
