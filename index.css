@@ -9,7 +9,7 @@ h1 {
     color: whitesmoke;
     text-align: center;
     font-family: 'Poller One', cursive;
-    font-size: 10rem;
+    font-size: 6rem;
 }
 
 #infoPara {
@@ -17,7 +17,7 @@ h1 {
     margin: 5px 25px;
     text-align: center;
     font-family: 'Poller One', cursive;
-    font-size: 4rem;
+    font-size: 2rem;
 }
 
 .inputSection {
