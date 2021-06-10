@@ -33,6 +33,7 @@ h1 {
 #titles {
     display: block;
     width: 95%;
+    height: 20vh;
     margin: 1em auto;
     border-radius: 10px;
     padding: 5px 20px 5px 10px;
@@ -45,6 +46,7 @@ h1 {
 
 #input-first, #input-last {
     width: 90%;
+    height: 20vh;
     margin: .5em auto;
     border-radius: .5rem;
     padding: .5rem;
