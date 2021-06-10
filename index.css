@@ -35,11 +35,11 @@ h1 {
     width: 95%;
     height: 20%;
     margin: 1em auto;
-    border-radius: 25%;
+    border-radius: 20%;
     padding: 5px 20px 5px 10px;
     font-family: 'Poller One', cursive;
     font-weight: 700;
-    font-size: 6rem;
+    font-size: 4rem;
     background-color: black;
     color: white;
     border: 2px solid white;
@@ -49,9 +49,9 @@ h1 {
     width: 90%;
     height: 20%;
     margin: .5em auto;
-    border-radius: 25%;
+    border-radius: 20%;
     padding: .5rem;
-    font-size: 6rem;
+    font-size: 4rem;
     background-color: black;
     color: white;
     display: block;
@@ -66,6 +66,7 @@ h1 {
     color: white;
     padding: .5rem 1rem;
     display: block;
+    font-size: 3rem;
 }
 
 #nameIs {
