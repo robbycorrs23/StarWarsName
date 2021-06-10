@@ -27,11 +27,12 @@ h1 {
     padding: 1em;
     background-image: url("https://user-images.githubusercontent.com/82347372/115903990-42bdff00-a432-11eb-9aab-2b9a980a3f8f.jpg");
     background-size: cover;
+    object-fit: cover;
 }
 
 #titles {
     display: block;
-    width: 60%;
+    width: 95%;
     margin: 1em auto;
     border-radius: 10px;
     padding: 5px 20px 5px 10px;
@@ -43,7 +44,7 @@ h1 {
 }
 
 #input-first, #input-last {
-    width: 60%;
+    width: 95%;
     margin: .5em auto;
     border-radius: .5rem;
     padding: .5rem;
