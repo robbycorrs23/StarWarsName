@@ -33,13 +33,13 @@ h1 {
 #titles {
     display: block;
     width: 95%;
-    height: 20%;
+    height: 10%;
     margin: 1em auto;
-    border-radius: 20%;
+    border-radius: 10%;
     padding: 5px 20px 5px 10px;
     font-family: 'Poller One', cursive;
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     background-color: black;
     color: white;
     border: 2px solid white;
@@ -47,11 +47,11 @@ h1 {
 
 #input-first, #input-last {
     width: 90%;
-    height: 20%;
+    height: 10%;
     margin: .5em auto;
-    border-radius: 20%;
-    padding: .5rem;
-    font-size: 4rem;
+    border-radius: 10%;
+    padding: 1rem;
+    font-size: 3rem;
     background-color: black;
     color: white;
     display: block;
