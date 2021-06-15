@@ -14,7 +14,8 @@ h1 {
 
 #infoPara {
     color: rgba(255,255,255,0.5);
-    margin: 5px 25px;
+    margin: .5rem 1.5rem;
+    padding: 1em;
     text-align: center;
     font-family: 'Poller One', cursive;
     font-size: 1.5rem;
@@ -64,7 +65,7 @@ h1 {
     color: white;
     padding: .5rem 1rem;
     display: block;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
 #nameIs {
@@ -72,6 +73,7 @@ h1 {
     text-align: center;
     font-family: 'Poller One', cursive;
     margin-top: 30px;
+    font-size: 2rem;
 }
 
 .starName {
@@ -81,7 +83,7 @@ h1 {
     text-shadow: 0 0 3px whitesmoke, 0 0 5px #0000FF;
     font-family: 'Poller One', cursive;
     color: white;
-    font-size: 30px;
+    font-size: 3rem;;
 }
 
 .display1 {
