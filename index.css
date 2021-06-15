@@ -28,7 +28,14 @@ h1 {
     background-image: url("https://user-images.githubusercontent.com/82347372/115903990-42bdff00-a432-11eb-9aab-2b9a980a3f8f.jpg");
     background-size: cover;
     object-fit: cover;
+    display: grid;
+    grid-template: 50% 50%/ 25% 25% 25% 25%;
 }
+
+.titles {grid-column: 1;}
+.input-first{grid-column: 2;}
+.input-last{grid-column: 3;}
+.sub-first {grid-column: 4;}
 
 .inputs {
     width: 40%;
