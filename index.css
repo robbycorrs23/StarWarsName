@@ -22,7 +22,7 @@ h1 {
 }
 
 .inputSection {
-    width: 100%;
+    width: 100vw;
     height: 40vh;
     margin: 1rem 0;
     padding: 1em;
@@ -83,7 +83,7 @@ h1 {
     text-shadow: 0 0 3px whitesmoke, 0 0 5px #0000FF;
     font-family: 'Poller One', cursive;
     color: white;
-    font-size: 3rem;;
+    font-size: 3.5rem;;
 }
 
 .display1 {
