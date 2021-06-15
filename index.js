@@ -1,7 +1,7 @@
-const firstName = document.querySelector("#input-first")
-const lastName = document.querySelector("#input-last")
+const firstName = document.querySelector(".input-first")
+const lastName = document.querySelector(".input-last")
 const firstBtn = document.querySelector("#sub-first")
-const selectTitle = document.querySelector("#titles");
+const selectTitle = document.querySelector(".titles");
 
 const nameA = ['Ackbar', 'Allie', 'Amidala', 'Amedda', 'Antilles', "Arvel", 'Adi', 'Armitage', 'Agen', 'Antonio', 'Aayla', 'Aurra', 'Anakin', 'Allana', 'Ahsoka', 'Allyn', 'Assajj']
 
