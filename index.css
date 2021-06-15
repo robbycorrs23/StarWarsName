@@ -29,13 +29,13 @@ h1 {
     background-size: cover;
     object-fit: cover;
     display: grid;
-    grid-template: 60% 40%/ 25% 25% 25% 25%;
+    grid-template: 25% 25% 25% 25%/ 60% 40%;
 }
 
-.titles {grid-column: 1;}
-.input-first{grid-column: 2;}
-.input-last{grid-column: 3;}
-.sub-first {grid-column: 4;}
+.titles {grid-row: 1;}
+.input-first{grid-row: 2;}
+.input-last{grid-row: 3;}
+.sub-first {grid-row: 4;}
 
 .inputs {
     width: 90%;
