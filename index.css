@@ -31,28 +31,23 @@ h1 {
 }
 
 .inputs {
-    height: 10%;
+    width: 85%;
+    height: 12%;
+    margin: 1rem;
+    padding: 1rem;
     border-radius: 5%;
     font-family: 'Poller One', cursive;
     font-size: 2.5rem;
     background-color: black;
     color: white;
+    display: block;
 }
 
 .titles {
-    display: block;
-    width: 95%;
     margin: 1em auto;
     padding: 5px 20px 5px 10px;
     font-weight: 700;
     border: 2px solid white;
-}
-
-.input-first, .input-last {
-    width: 90%;
-    margin: .5em auto;
-    padding: 1rem;
-    display: block;
 }
 
 #sub-first {
