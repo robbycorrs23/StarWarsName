@@ -13,11 +13,11 @@ h1 {
 }
 
 #infoPara {
-    color: whitesmoke;
+    color: rgba(255,255,255,0.5);
     margin: 5px 25px;
     text-align: center;
     font-family: 'Poller One', cursive;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .inputSection {
