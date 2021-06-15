@@ -33,7 +33,7 @@ h1 {
 .inputs {
     width: 85%;
     height: 12%;
-    margin: 1rem;
+    margin: 1em auto;
     padding: 1rem;
     border-radius: 5%;
     font-family: 'Poller One', cursive;
@@ -41,13 +41,6 @@ h1 {
     background-color: black;
     color: white;
     display: block;
-}
-
-.titles {
-    margin: 1em auto;
-    padding: 5px 20px 5px 10px;
-    font-weight: 700;
-    border: 2px solid white;
 }
 
 #sub-first {
