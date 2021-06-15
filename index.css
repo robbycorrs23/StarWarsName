@@ -30,30 +30,28 @@ h1 {
     object-fit: cover;
 }
 
-#titles {
-    display: block;
-    width: 95%;
+.inputs {
     height: 10%;
-    margin: 1em auto;
     border-radius: 5%;
-    padding: 5px 20px 5px 10px;
     font-family: 'Poller One', cursive;
-    font-weight: 700;
     font-size: 3rem;
     background-color: black;
     color: white;
+}
+
+.titles {
+    display: block;
+    width: 95%;
+    margin: 1em auto;
+    padding: 5px 20px 5px 10px;
+    font-weight: 700;
     border: 2px solid white;
 }
 
-#input-first, #input-last {
+.input-first, .input-last {
     width: 90%;
-    height: 10%;
     margin: .5em auto;
-    border-radius: 10%;
     padding: 1rem;
-    font-size: 3rem;
-    background-color: black;
-    color: white;
     display: block;
 }
 
