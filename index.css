@@ -14,6 +14,7 @@ h1 {
 #infoPara {
     color: rgba(255,255,255,0.75);
     margin: .5rem 1.5rem;
+    line-height: 1rem;
     padding: 1em;
     text-align: center;
     font-size: 1.5rem;
