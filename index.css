@@ -22,7 +22,7 @@ h1 {
 
 .inputSection {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     margin: 1rem 0;
     padding: 1em;
     background-image: url("https://user-images.githubusercontent.com/82347372/115903990-42bdff00-a432-11eb-9aab-2b9a980a3f8f.jpg");
@@ -58,15 +58,15 @@ h1 {
 }
 
 #sub-first {
-    width: 40%;
-    height: 20%;
+    width: 30%;
+    height: 15%;
     margin: 0 auto;
     border-radius: 10px;
     background-color: black;
     color: white;
     padding: .5rem 1rem;
     display: block;
-    font-size: 3rem;
+    font-size: 1.5rem;
 }
 
 #nameIs {
