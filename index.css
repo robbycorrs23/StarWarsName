@@ -1,14 +1,14 @@
 body {
     background-image: url("https://user-images.githubusercontent.com/82347372/115887872-5b251e00-a420-11eb-8013-8f1847bf633d.jpg");
     margin: 0px auto;
+    font-family: 'Poller One', cursive;
 }
 
 h1 {
     margin: 3rem 0rem 1rem 0rem;
     color: whitesmoke;
     text-align: center;
-    font-family: 'Poller One', cursive;
-    font-size: 6rem;
+    font-size: 5rem;
 }
 
 #infoPara {
@@ -16,7 +16,6 @@ h1 {
     margin: .5rem 1.5rem;
     padding: 1em;
     text-align: center;
-    font-family: 'Poller One', cursive;
     font-size: 1.5rem;
 }
 
@@ -36,7 +35,6 @@ h1 {
     margin: 1em auto;
     padding: 1rem;
     border-radius: 5%;
-    font-family: 'Poller One', cursive;
     font-size: 2.5rem;
     background-color: black;
     color: white;
@@ -58,7 +56,6 @@ h1 {
 #nameIs {
     color: white;
     text-align: center;
-    font-family: 'Poller One', cursive;
     margin-top: 30px;
     font-size: 2rem;
 }
@@ -68,7 +65,6 @@ h1 {
     display: flex;
     justify-content: center;
     text-shadow: 0 0 3px whitesmoke, 0 0 5px #0000FF;
-    font-family: 'Poller One', cursive;
     color: white;
     font-size: 3.5rem;;
 }
