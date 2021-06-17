@@ -8,7 +8,7 @@ h1 {
     margin: 3rem 0rem 1rem 0rem;
     color: whitesmoke;
     text-align: center;
-    font-size: 5rem;
+    font-size: 2rem;
 }
 
 #infoPara {
@@ -17,7 +17,7 @@ h1 {
     line-height: 2rem;
     padding: 1em;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .inputSection {
@@ -42,7 +42,7 @@ h1 {
     height: 50%;
     padding: 1rem;
     border-radius: 10%;
-    font-size: 2.5rem;
+    font-size: 1rem;
     background-color: black;
     color: white;
     display: block;
@@ -57,14 +57,14 @@ h1 {
     color: white;
     padding: .5rem 1rem;
     display: block;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 #nameIs {
     color: white;
     text-align: center;
     margin-top: 30px;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 
 .starName {
@@ -73,7 +73,7 @@ h1 {
     justify-content: center;
     text-shadow: 0 0 3px whitesmoke, 0 0 5px #0000FF;
     color: white;
-    font-size: 3.5rem;;
+    font-size: 1.5rem;;
 }
 
 .display1 {
