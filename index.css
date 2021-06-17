@@ -14,10 +14,10 @@ h1 {
 #infoPara {
     color: rgba(255,255,255,0.75);
     margin: .5rem 1.5rem;
-    line-height: 2rem;
+    line-height: 1rem;
     padding: 1em;
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
 }
 
 .inputSection {
@@ -45,18 +45,15 @@ h1 {
     font-size: 1rem;
     background-color: black;
     color: white;
-    display: block;
 }
 
 #sub-first {
     width: 50%;
-    height: 15%;
-    margin: 0 auto;
+    height: 50%;
     border-radius: 10px;
     background-color: black;
     color: white;
     padding: .5rem 1rem;
-    display: block;
     font-size: 1rem;
 }
 
