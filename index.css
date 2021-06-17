@@ -29,7 +29,7 @@ h1 {
     background-size: cover;
     object-fit: cover;
     display: grid;
-    grid-template: 25% 25% 25% 25%/ 60% 40%;
+    grid-template: 25% 25% 25% 24%/ 60% 40%;
 }
 
 .titles {grid-row: 1;}
@@ -39,8 +39,8 @@ h1 {
 
 .inputs {
     width: 90%;
-    height: 60%;
-    padding: 1.5rem;
+    height: 50%;
+    padding: 1rem;
     border-radius: 10%;
     font-size: 2.5rem;
     background-color: black;
