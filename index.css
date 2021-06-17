@@ -13,9 +13,9 @@ h1 {
 
 #infoPara {
     color: rgba(255,255,255,0.75);
-    margin: .5rem 1.5rem;
-    line-height: 1rem;
-    padding: 1em;
+    margin: 0 1.5rem;
+    line-height: 1.2rem;
+    padding: .5em;
     text-align: center;
     font-size: .9rem;
 }
@@ -29,7 +29,7 @@ h1 {
     background-size: cover;
     object-fit: cover;
     display: grid;
-    grid-template: 25% 25% 25% 24%/ 60% 40%;
+    grid-template: 23% 23% 23% 23%/ 58% 38%;
 }
 
 .titles {grid-row: 1;}
