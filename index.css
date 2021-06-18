@@ -47,6 +47,7 @@ h1 {
 #sub-first {
     align-self: center;
     justify-self: center;
+    border: solid white 2px;
 }
 
 .inputs {
