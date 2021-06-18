@@ -11,15 +11,12 @@ h1 {
     font-size: 2rem;
 }
 
-h1::after {
+.lightsaber {
     content = "";
-    display: block;
-    width: 2em;
-    height: 1px;
-    margin: .5em auto .5em;
-    background-color: white;
-    opacity: .25;
-    
+    position: absolute;
+    width: 1em;
+    height: 0;
+    filter: blur(1px);
 } 
 
 #infoPara {
