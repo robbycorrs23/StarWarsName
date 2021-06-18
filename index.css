@@ -17,7 +17,7 @@ h1::after {
     width: 2em;
     height: 1px;
     margin: .5em auto .5em;
-    background: white;
+    background-color: white;
     opacity: .25;
     
 } 
