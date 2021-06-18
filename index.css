@@ -50,14 +50,23 @@ h1 {
 }
 
 .inputs {
-    width: 90%;
-    height: 50%;
     padding: .5rem 1rem;
     border-radius: 10px;
     font-size: 1rem;
     background-color: black;
     color: white;
 }
+
+.title {
+    width: 85%;
+    height: 50%;
+}
+
+.input-first,
+.input-last {
+    width: 70%;
+    height: 35%;
+} 
 
 #sub-first {
     width: 50%;
