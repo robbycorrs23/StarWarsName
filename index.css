@@ -1,77 +1,77 @@
-body {
+html, body {
+    width: 100%;
+    height: 100vh;
     background-image: url("https://user-images.githubusercontent.com/82347372/115887872-5b251e00-a420-11eb-8013-8f1847bf633d.jpg");
     margin: 0px auto;
     font-family: 'Poller One', cursive;
 }
 
 h1 {
-    margin: 3rem 0rem .5rem 0rem;
+    padding: 2rem 0 0 0;
     color: whitesmoke;
     text-align: center;
     font-size: 2rem;
 }
 
-.lightsaber .saber {
-    position: relative;
-    width: 11em;
-    height: .8em;
-    margin: .5em auto;
-    background-color: white;
-    border-radius: 6px;
-    box-shadow: 0px 0px 10px, 0px 0px 2px inset;
-    animation: glow 1.5s linear infinite; 
+.lightsaber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
 }
 
-.lightsaber .handle1 {
-    position: relative;
-    width: .2em;
+.saber {
+    width: 12em;
+    height: .8em;
+    background-color: #e7ffd0;
+    border-radius: 6px 2px 2px 6px;
+    box-shadow: 0px 0px 10px, 0px 0px 2px inset;
+    animation: glow 1.5s linear infinite;
+}
+
+.handle1 {
+    width: .4em;
     height: .6em;
     background-color: gray;
 }
 
 .lightsaber .handle2 {
-    position: relative;
-    width: .5em;
-    height: 1em;
-    background-color: gray;
-    margin: 0;
-}
-
-.lightsaber .handle3 {
-    position: relative;
-    width: .1em;
-    height: .8em;
-    background-color: white;
-    margin: 0 .1em;
-}
-
-.lightsaber .handle4 {
-    position: relative;
-    width: .1em;
-    height: .8em;
-    background-color: white;
-    margin: 0 .1em;
-}
-
-.lightsaber .handle5 {
-    position: relative;
-    width: .1em;
-    height: .8em;
-    background-color: white;
-    margin: 0 .1em;
-}
-
-.lightsaber .handle6 {
-    position: relative;
     width: .7em;
     height: 1em;
     background-color: gray;
     margin: 0;
 }
 
+.lightsaber .handle3 {
+    width: .2em;
+    height: .8em;
+    background-color: white;
+    margin: 0 .1em;
+}
+
+.lightsaber .handle4 {
+    width: .2em;
+    height: .8em;
+    background-color: white;
+    margin: 0 .1em;
+}
+
+.lightsaber .handle5 {
+    width: .2em;
+    height: .8em;
+    background-color: white;
+    margin: 0 .1em;
+}
+
+.lightsaber .handle6 {
+    width: 2.5em;
+    height: 1em;
+    background-color: gray;
+    margin: 0;
+}
+
 .lightsaber .handle7 {
-    position: relative;
-    width: .1em;
+    width: .3em;
     height: .6em;
     background-color: gray;
     margin: 0;
@@ -167,14 +167,14 @@ h1 {
 
 @keyframes glow {
   from {
-    color: aqua; 
-    box-shadow: 0 0 9px dodgerblue ; 
+    color: rgb(137, 250, 137); 
+    box-shadow: 0 0 9px rgb(62, 180, 7) ; 
   }
   50% {
-    color: aqua; 
-    box-shadow: 0 0 18px dodgerblue; 
+    color: rgb(137, 250, 137); 
+    box-shadow: 0 0 18px rgb(62, 180, 7); 
   }
   to {
-    color: aqua; 
-    box-shadow: 0 0 9px dodgerblue; 
+    color: rgb(137, 250, 137); 
+    box-shadow: 0 0 9px rgb(62, 180, 7); 
   }
