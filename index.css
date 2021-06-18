@@ -13,10 +13,18 @@ h1 {
 
 .lightsaber {
     content = "";
-    position: absolute;
     width: 1em;
     height: 1px;
     filter: blur(1px);
+    background: rgb(135, 220, 90);
+    background: linear-gradient(
+    to right, 
+    rgb(135, 220, 90) 0%, 
+    rgb(254, 254, 254) 30%, 
+    rgb(254, 254, 254) 50%, 
+    rgb(254, 254, 254) 70%, 
+    rgb(135, 220, 90) 100%
+  );
 } 
 
 #infoPara {
