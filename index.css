@@ -23,8 +23,7 @@ h1 {
 .inputSection {
     width: 100%;
     height: 40vh;
-    margin: 1rem 0;
-    padding: 1em;
+    margin: 0 auto;
     background-image: url("https://user-images.githubusercontent.com/82347372/115903990-42bdff00-a432-11eb-9aab-2b9a980a3f8f.jpg");
     background-size: cover;
     object-fit: cover;
