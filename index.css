@@ -29,12 +29,17 @@ h1 {
     object-fit: cover;
     display: grid;
     grid-template: 23% 23% 23% 23%/ 58% 38%;
+    grid-template-areas:
+        "select blank"
+        "first-input blank"
+        "second-input blank"
+        "btn blank";
 }
 
-.titles {grid-row: 1;}
-.input-first{grid-row: 2;}
-.input-last{grid-row: 3;}
-.sub-first {grid-row: 4;}
+.titles {grid-area: select;}
+.input-first{grid-area: first-input;}
+.input-last{grid-area: second-input;}
+.sub-first {grid-area: btn;}
 
 .inputs {
     width: 90%;
