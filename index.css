@@ -11,6 +11,17 @@ h1 {
     font-size: 2rem;
 }
 
+h1::after {
+    content = "";
+    display: block;
+    width: 2em;
+    height: 1px;
+    margin: .5em auto .5em;
+    background: white;
+    opacity: .25;
+    
+} 
+
 #infoPara {
     color: rgba(255,255,255,0.75);
     margin: 0 1.5rem .5rem;
