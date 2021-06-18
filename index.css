@@ -39,7 +39,7 @@ h1 {
 .titles {grid-area: select;}
 .input-first{grid-area: first-input;}
 .input-last{grid-area: second-input;}
-.sub-first {grid-area: btn;}
+#sub-first {grid-area: btn;}
 
 .inputs {
     width: 90%;
