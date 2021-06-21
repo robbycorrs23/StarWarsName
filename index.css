@@ -190,6 +190,10 @@ h1 {
     }
      
      .starName {
-        font-size: 3rem;;
-     }
+        font-size: 5rem;;
+    }
+     
+     .titles {
+        width: 70%;
+    }
   }
