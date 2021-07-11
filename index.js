@@ -87,16 +87,16 @@ function grabInput () {
     let valueFirst = firstName.value.toUpperCase();
     if (valueFirst.startsWith("A")) {
         firstShow.innerText = nameA[randomA];
-        firstName.value = "";
+        firstName.value = ""
     } else if (valueFirst.startsWith("B")) {
         firstShow.innerText = nameB[randomB];
-        firstName.value = "";
+        firstName.value = ""
     } else if (valueFirst.startsWith("C")) {
         firstShow.innerText = nameC[randomC];
-        firstName.value = "";
+        firstName.value = ""
     } else if (valueFirst.startsWith("D")) {
         firstShow.innerText = nameD[randomD];
-        firstName.value = "";
+        firstName.value = ""
     } else if (valueFirst.startsWith("E")) {
         firstShow.innerText = nameE[randomE];
         firstName.value = "";
